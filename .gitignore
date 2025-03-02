@@ -1,0 +1,32 @@
+# ==========================
+# Unity-generated folders (DO NOT TRACK)
+# ==========================
+
+# Unity-specific temporary files
+/Library/
+/Temp/
+/Logs/
+# Ignore local user settings
+/UserSettings/
+
+# Ignore build and compiled files
+/Build/
+/Builds/
+*.apk
+*.aab
+*.unitypackage
+*.exe
+*.log
+
+# ==========================
+# Git-related settings
+# ==========================
+/obj/
+/.vs/
+*.sln
+
+# ==========================
+# Unity Packages (KEEP THIS FOLDER)
+/Packages/*~  # Ignore package cache but keep dependencies
+!Packages/manifest.json  # Keep the dependency list
+!Packages/packages-lock.json  # Keep the locked versions
